@@ -147,13 +147,43 @@ color: var(--dominant-color);
     font-size: 250%;
 	margin-bottom: 5px;
 	line-height: 145%;
+font-style: italic;
 }
 
-.banner-content p{
-    color: #fff;
-    font-size: 17px;
-    font-weight: normal;
-    letter-spacing: 1px;
+
+/* ---------button--------- */
+.btn{
+    border: 2px solid var(--dominant-color);
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 10px;
+    margin-top: 10px;
+    font-weight: 550;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    background-color: var(--dominant-color);
+    cursor: pointer;
+    transition: background-color 2s ease-out;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -ms-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    color: rgb(255, 255, 255);
+}
+
+.button a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn:hover{
+    color: #d67424;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid var(--dominant-color);
+    transform: scale(1);
 }
 
 
