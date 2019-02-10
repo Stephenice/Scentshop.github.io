@@ -1,0 +1,38 @@
+/*css for the main nav*/
+#main_ul{
+ margin:0px;
+ 
+ 
+}
+.main_li{
+ width:180px;
+ float:left;
+ display:inline;
+ list-style-type:none;
+ //border:1px solid red;
+ text-align:center;
+ //background:orange;
+ 
+}.main_a{
+	text-decoration:none;
+ font-size:20px;
+ display:block;
+ color:black;
+ height:100%;
+ width:100%;
+}
+
+.main_li:hover{
+ background:yellow;
+ 
+}
+.main_a:hover{
+ color:red;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+

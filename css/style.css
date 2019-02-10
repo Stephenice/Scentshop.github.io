@@ -1,0 +1,80 @@
+
+  /*control the layout of London*/
+
+body{
+ width:1000px;
+ margin:0 auto;
+ 
+ }
+ 
+#wrapper{
+ width:100%;
+ float:left;
+ display:black;
+ border:1px solid grey;
+ }
+ header{
+ width:100%;
+ float:left;
+ display:block;
+ border:1px solid tomato;
+ 
+}
+nav{
+ width:100%;
+ float:left;
+ display:block;
+ background:lightgreen;
+ //border:1px solid tomato;
+} 
+main{
+ width:100%;
+ float:left;
+ display:block;
+ //border:1px solid tomato;
+}
+
+.contain{
+	width:1008px;
+ float:950px;
+ display:inline;
+ border:1px dotted;
+	margin-left:20px;
+	margin-top:45px;
+	margin-bottom:10px;
+}
+.prod_box{
+	width:300px;
+ float:left;
+ display:inline;
+	border:1px solid;
+	margin: 7px;
+}
+.prod_pic{
+	width:96%;
+ float:left;
+ display:inline;
+	border:1px solid;
+	margin: 2px;
+}
+.prod_price{
+ 	width:96%;
+  float:left;
+ 	display:inline;
+  	border:1px solid;
+ 	margin: 1px;
+}
+
+footer{
+ width:100%;
+ float:left;
+ display:orange;
+ border:3px solid tomato;
+ 
+ 
+ 
+  
+}
+ 
+ 
+
