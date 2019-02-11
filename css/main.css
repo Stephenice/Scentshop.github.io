@@ -21,7 +21,7 @@ line-height: 140%;
 text-rendering: optimizeLegibility;
 background-color: #ffffff;
 color: #000;
-overflow: hidden;
+overflow-x: hidden;
 font-weight: 300;
 }
 
@@ -72,9 +72,10 @@ header{
     /* background-position: center; */
     position: relative;
     overflow: hidden;
-	height: 100vh;
+	height: 600px;
 	width: 100vw;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	display: block;
 	}
 
 
