@@ -74,6 +74,7 @@ header{
 	width: 100vw;
 	background-repeat: no-repeat;
 	display: block;
+	/* background-clip: padding-box; */
 	}
 
 	.header{
@@ -82,11 +83,11 @@ header{
 		
 		background-position: center;
 		background-attachment: fixed;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-ms-background-size: cover;
+		background-size: contain;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		-ms-background-size: contain;
 		/* background-position: center; */
 		position: relative;
 		overflow: hidden;
